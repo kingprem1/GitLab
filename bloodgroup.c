@@ -38,8 +38,8 @@ void main()
     }
     else
     {
-      printf("%s, Z. Nice! You can give blood to all: O, A, B, AB\n", Name);
-      printf("  Good Sad! You can receive blood only from: O\n");
+      printf("%s, O. Bad! You can give blood to all: O, A, B, AB\n", Name);
+      printf("  Wow Good! You can receive blood only from: O\n");
     }
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
